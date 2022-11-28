@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Himanshu Dave</title>
+    <link>https://davehimanshu.github.io/</link>
+      <atom:link href="https://davehimanshu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Himanshu Dave</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://davehimanshu.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Himanshu Dave</title>
+      <link>https://davehimanshu.github.io/</link>
+    </image>
+    
+    <item>
+      <title>Example Talk</title>
+      <link>https://davehimanshu.github.io/event/example/</link>
+      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
+      <guid>https://davehimanshu.github.io/event/example/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://wowchemy.com/docs/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Further event details, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;page elements&lt;/a&gt; such as image galleries, can be added to the body of this page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Vector calculus and index notation</title>
+      <link>https://davehimanshu.github.io/fm_articles/index_notation/</link>
+      <pubDate>Sat, 06 Aug 2022 00:00:00 +0000</pubDate>
+      <guid>https://davehimanshu.github.io/fm_articles/index_notation/</guid>
+      <description>&lt;p&gt;Before diving into the field of fluid mechanics, lets recap the basics of mathematical operators within vector calculus. For all purposes below and in all other articles we will assume a 3-D Cartesian coordinate system with x,y and z coordinates unless otherwise stated. To begin with we introduce the &lt;strong&gt;Del&lt;/strong&gt; operator represented by the nabla symbol 
+
+$\nabla$. Its standard definition is the derivative of a function and is defined as:
+
+
+
+$$
+\nabla = \left(\frac{\partial}{\partial x},\frac{\partial}{\partial y},\frac{\partial}{\partial z}\right) = \vec{e}_x\frac{\partial}{\partial x} + \vec{e}_y\frac{\partial}{\partial y} + \vec{e}_z\frac{\partial}{\partial z}  
+$$
+
+
+
+$\nabla$ can be interpreted as a vector of particle derivatives in each coordinate where 
+
+$\{\vec{e}_x,\vec{e}_y,\vec{e}_z\}$  are the unit vectors in each coordinate. 
+
+$\nabla$ is a mathematical notation to help easily understand the 4 main vector calculus operations, namely the gradient, divergence, curl and the laplacian. While there are many more operations possible using 
+
+$\nabla$, for the purposes of fluids, these should be sufficient. In the case more operations are required, they will be explained.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Gradient operator&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The gradient of a function 
+
+$f$ points in the direction of greatest increase of 
+
+$f$ and is represented as:
+
+
+
+  $$
+  \nabla f
+  $$
+  
+For the purposes regarding fluid mechanics we will show 2 possible uses of the gradient operator, one being the gradient of a scalar function 
+
+$\nabla f$, and the other being the gradient of a vector function 
+
+$\nabla\vec{f}$ where 
+
+$\vec{f} = \{F_x,F_y,F_z\}$.
+
+
+
+  $$
+  \nabla f = \left(\frac{\partial f}{\partial x},\frac{\partial f}{\partial y},\frac{\partial f}{\partial z}\right) = \vec{e}_x\frac{\partial f}{\partial x} + \vec{e}_y\frac{\partial f}{\partial y} + \vec{e}_z\frac{\partial f}{\partial z}  
+  $$
+  
+
+
+
+  $$
+  \nabla\vec{f} = \begin{pmatrix} \frac{\partial F_x}{\partial x} &amp; \frac{\partial F_x}{\partial y} &amp; \frac{\partial F_x}{\partial z}\\ \frac{\partial F_y}{\partial x} &amp; \frac{\partial F_y}{\partial y} &amp; \frac{\partial F_y}{\partial z}\\ \frac{\partial F_z}{\partial x} &amp; \frac{\partial F_z}{\partial y} &amp; \frac{\partial F_z}{\partial z} \end{pmatrix}
+  $$
+  
+As we can see, the gradient of a scalar field is a rank 1 tensor i.e, a vector and the gradient of a vector field is a rank 2 tensor i.e, a matrix.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Divergence operator&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The divergence of a vector field 
+
+$\vec{f} = \{F_x,F_y,F_z\}$ shows how much is flowing out of a particular point i.e, source (result of the divergence is positive) and how much is flowing inside it i.e, sink (result of the divergence is negative). It is the measure of how many sources or sinks exist and its strength and is represented as:
+
+
+
+  $$
+  \nabla\cdot\vec{f} = \frac{\partial F_x}{\partial x} + \frac{\partial F_y}{\partial y} + \frac{\partial F_z}{\partial z}
+  $$
+  
+As shown from the above equation, the divergence of a vector field is a scalar value.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Curl operator&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The curl of a vector field 
+
+$\vec{f} = \{F_x,F_y,F_z\}$ shows the infinitesimal circulation of a vector field in a three-dimensional Euclidean space. It is represented as:
+
+
+
+  $$\begin{eqnarray}
+  \nabla\times\vec{f} &amp; = &amp; \left(\frac{\partial F_z}{\partial y} - \frac{\partial F_y}{\partial z}\right)\vec{e}_x + \left(\frac{\partial F_x}{\partial z} - \frac{\partial F_z}{\partial x}\right)\vec{e}_y\\\\\\
+  &amp; &amp; + \left(\frac{\partial F_y}{\partial x} - \frac{\partial F_x}{\partial y}\right)\vec{e}_z
+  \end{eqnarray}$$
+  
+As shown from the above equation, the curl of a vector field is also a vector.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Laplacian operator&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;The laplacian operator is used in many fields and is performed most of the times on a scalar field. Intuitively imagine the laplacian operator to be the second derivative of a function 
+
+$f$. It is represented as:
+
+
+
+  $$
+  \nabla^2 f = \nabla\cdot(\nabla f)
+  $$
+  
+The laplacian of a scalar field is a also a scalar field as seen from the above equation. The gradient of a scalar field is a vector and then performing a divergence on that vector field produces a scalar field.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Directional derivative&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Finally lets take a look at something called the directional derivative which is a useful mathematical calculation in fluid mechanics. The directional derivative of a scalar field 
+
+$f$ gives the rate of change of the field in a particular direction 
+
+$\vec{a} = \{a_x,a_y,a_z\}$. It is represented as:
+
+
+
+  $$
+  \vec{a}\cdot\nabla f = a_x\frac{\partial f}{\partial x} + a_y\frac{\partial f}{\partial y} + \frac{\partial f}{\partial z}
+  $$
+  &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;While this brief recap on multivariable calculus should suffice for all other articles in this series. Listed below are further resources to help understand linear algebra and multivariable calculus.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Linear algebra series on Youtube by 3blue1brown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Derivatives of multivariable functions on Khan academy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Performing vector calculus on multivariable functions can be a daunting task, especially in understanding the syntax and rules of the process. To make this task easier we use something called index notation (also called Einstein notation). This helps perform these calculations in a more easier manner, or atleast that is what I believe. Below we will review the rules used to write vector calculus in index notation.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Rules of Index notation&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Index notation is also commonly known as tensor or subscript notation. A very common technique when it comes to performing vector algebra.&lt;/p&gt;
+&lt;figure&gt;
+  &lt;img src=&#34;figure1.jpg&#34; style=&#34;width:100%&#34;&gt;
+  &lt;figcaption&gt;Fig.1: An illustration of the 3-D coordinate system.&lt;/figcaption&gt;
+&lt;/figure&gt;
+Let&#39;s take a look at the figure above. Instead of the commonly defined 
+
+$x,y$ and  
+
+$z$ we use 
+
+$x_{1},x_{2}$ and 
+
+$x_{3}$ or simply,
+$$
+x_i\;\;\text{where}\;\; i=1,2,3
+$$
+The corresponding unit basis vectors are
+$$
+\hat{e}_i\;\;\text{where}\;\; i=1,2,3
+$$
+These basis vectors 
+
+$\hat{e}_{1},\hat{e}_{2}$ and 
+
+$\hat{e}_{3}$ have the following properties:
+$$
+\begin{aligned}
+&amp;\hat{e}_{1}\cdot\hat{e}_{1}=\hat{e}_{2}\cdot\hat{e}_{2}=\hat{e}_{3}\cdot\hat{e}_{3}=1 \\\\
+&amp;\hat{e}_{1}\cdot\hat{e}_{2}=\hat{e}_{2}\cdot\hat{e}_{3}=\hat{e}_{1}\cdot\hat{e}_{3}=0
+\end{aligned}
+$$
+We now introduce the Kronecker delta symbol $\delta_{ij}$. $\delta_{ij}$ has the following properties:
+$$
+\delta_{ij} = \begin{cases}0 &amp; \text{if }i\neq j, \\\\
+1 &amp; \text{if }i=j.\end{cases}
+$$
+Using the above notation we can rewrite the product of the basis vectors as:
+$$
+\hat{e}_{i}\cdot\hat{e}_{j}=\delta_{ij}
+$$
+&lt;p&gt;The standard vector notation approach for any vector $\overrightarrow{A}$ can be written as $\overrightarrow{A}=A_x\hat{i}+A_y\hat{j}+A_z\hat{k}$. We can express this using index notation as:
+
+
+
+$$
+\begin{aligned}
+\overrightarrow{A}&amp;=A_1\hat{e}_1+A_2\hat{e}_2+A_3\hat{e}_3 \\\\
+&amp;= \sum_{i=1}^3 A_i\hat{e}_i
+\end{aligned}
+$$
+
+Notice that within the summation, the index $i$ is repeated. We call this a repeated index and these are always part of a summation. Hence from here on forward, a repeated index implies summation, and can be expressed as:
+
+
+
+$$
+\overrightarrow{A}=A_i\hat{e}_i=\sum_{i=1}^3 A_i\hat{e}_i
+$$
+
+This repeated index notation is known as Einstein&amp;rsquo;s convention. Any repeated index is called a &lt;em&gt;dummy&lt;/em&gt; index. Since a repeated index always implies a summation over all possible values, one can always relabel the &lt;em&gt;dummy&lt;/em&gt; index:
+$$
+\overrightarrow{A} = A_i\hat{e}_i=A_j\hat{e}_j=A_k\hat{e}_k \text{  etc&amp;hellip;}
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;The scalar product in index notation&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We now show how to express scalar products (also known as inner or dot products) using index notation. Let&amp;rsquo;s consider the vectors $\overrightarrow{a}$ and $\overrightarrow{b}$, which can be expressed using index notation as
+$$
+\begin{eqnarray}
+\overrightarrow{a} = a_i\hat{e}_i\\
+\overrightarrow{b} = b_j\hat{e}_j
+\end{eqnarray}
+$$
+The dot product of these vectors $\overrightarrow{a}\cdot\overrightarrow{b}$ in a long form would give us:
+
+
+
+$$
+\begin{aligned}
+\overrightarrow{a}\cdot\overrightarrow{b} &amp;= \left(\sum_{i=1}^3{a_i\hat{e}_i}\right)\cdot\left(\sum_{j=1}^3{b_j\hat{e}_j}\right) \\\\
+&amp;=\sum_{i=1}^{3}\sum_{j=1}^{3}\left[\left(a_i\hat{e}_i\right)\cdot\left(b_j\hat{e}_j\right)\right] \\\\
+&amp;=\sum_{i=1}^{3}\sum_{j=1}^{3}\left[a_{i}b_{j}\left(\hat{e}_i\cdot\hat{e}_j\right)\right]\;\;\;\text{(commutative property)} \\\\
+&amp;=\sum_{i=1}^{3}\sum_{j=1}^{3}\left(a_{i}b_{j}\delta_{ij}\right)
+\end{aligned}
+$$
+
+Summing over all values of $i$ and $j$ we get
+
+
+
+$$
+\begin{eqnarray}
+\overrightarrow{a}\cdot\overrightarrow{b} &amp;=&amp; a_1b_1\delta_{11}+a_1b_2\delta_{12}+a_1b_3\delta_{13} \\\\
+&amp; &amp; +a_2b_1\delta_{21}+a_2b_2\delta_{22}+a_2b_3\delta_{23} \\\\
+&amp; &amp; +a_3b_1\delta_{31}+a_3b_2\delta_{22}+a_3b_3\delta_{33} \\\\
+&amp;=&amp; a_1b_1\delta_{11}+a_2b_2\delta_{22}+a_3b_3\delta_{33} \\\\
+&amp;=&amp; \sum_{i=1}^{3}a_ib_i
+\end{eqnarray}
+$$
+
+More compactly we can write this as
+
+
+
+$$
+\begin{eqnarray}
+\overrightarrow{a}\cdot\overrightarrow{b} &amp;=&amp; \left(a_i\hat{e}_i\right)\cdot\left(b_j\hat{e}_j\right) \\\\
+&amp;=&amp; a_ib_j\hat{e}_i\cdot\hat{e}_j = a_ib_j\delta_{ij}\\\\
+&amp;=&amp; a_ib_i = a_1b_1+a_2b_2+a_3b_3
+\end{eqnarray}
+$$
+&lt;/p&gt;
+&lt;p&gt;Lets take a look at some examples using scalar calculations:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Reduce $\delta_{ij}\delta_{jk}\delta_{ki}$:
+
+
+
+  $$
+  \begin{eqnarray}
+  \delta_{ij}\delta_{jk}\delta_{ki} &amp;=&amp; \delta_{ik}\delta_{ki} \text{ (remove }\delta_{ij}\text{, set }j=i\text{ everywhere)}\\\\
+  &amp;=&amp; \delta_{ii} = 3 \text{ (remove }\delta_{ik}\text{, set }i=k\text{ everywhere)}
+  \end{eqnarray}
+  $$
+  &lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\overrightarrow{r}$ and $\hat{r}$ in index notation:&lt;/p&gt;
+&lt;p&gt;The vector $\overrightarrow{r}$ is expressed as:
+
+
+
+    $$
+    \overrightarrow{r} = x_1\hat{e}_1 + x_2\hat{e}_2 + x_3\hat{e}_3 = x_{i}\hat{e}_i
+    $$
+    
+The unit vector $\hat{r}$ is expressed as:
+
+
+
+    $$
+    \hat{r} = \frac{\overrightarrow{r}}{|\vec{r}|} = \frac{\overrightarrow{r}}{\left(\overrightarrow{r}\cdot\overrightarrow{r}\right)^{1/2}} = \frac{x_i\hat{e}_i}{\left(x_jx_j\right)^{1/2}}
+    $$
+    
+Lets take another case of a the scaler product of $\overrightarrow{a}\cdot\hat{r}$:
+
+
+
+    $$
+    \overrightarrow{a}\cdot\hat{r} = \frac{a_ix_i}{\left(x_jx_j\right)^{1/2}}
+    $$
+    &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;The cross product in index notation&lt;/strong&gt;
+Let&amp;rsquo;s consider the same coordinate system shown in the figure above. Using conventional right-hand rule for cross products, we have
+$$
+\hat{e}_1\times\hat{e}_1 = \hat{e}_2\times\hat{e}_2 = \hat{e}_3\times\hat{e}_3 = 0
+$$&lt;br&gt;
+$$
+\begin{eqnarray}
+\hat{e}_1\times\hat{e}_2 &amp;amp;=&amp;amp; \hat{e}_3 \\
+\hat{e}_2\times\hat{e}_3 &amp;amp;=&amp;amp; \hat{e}_1 \\
+\hat{e}_3\times\hat{e}_1 &amp;amp;=&amp;amp; \hat{e}_2 \\
+\hat{e}_2\times\hat{e}_1 &amp;amp;=&amp;amp; -\hat{e}_3 \\
+\hat{e}_3\times\hat{e}_2 &amp;amp;=&amp;amp; -\hat{e}_1 \\
+\hat{e}_1\times\hat{e}_3 &amp;amp;=&amp;amp; -\hat{e}_2 \\
+\end{eqnarray}
+$$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To write this using the index notation approach, we have to introduce a new symbol $\epsilon_{ijk}$, commonly known as the Levi-Cevita  tensor. This symbol has the following properties:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Hello world&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Immersed boundary approaches (a novel approach to increasing simulation fidelity)</title>
+      <link>https://davehimanshu.github.io/research_projects/example2/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://davehimanshu.github.io/research_projects/example2/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Immersed boundary approaches (a novel approach to increasing simulation fidelity)</title>
+      <link>https://davehimanshu.github.io/research_themes/example2/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://davehimanshu.github.io/research_themes/example2/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Particle modulation within turbulent flows</title>
+      <link>https://davehimanshu.github.io/research_projects/example1/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://davehimanshu.github.io/research_projects/example1/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Particle modulation within turbulent flows</title>
+      <link>https://davehimanshu.github.io/research_themes/example1/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>https://davehimanshu.github.io/research_themes/example1/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>An example conference paper</title>
+      <link>https://davehimanshu.github.io/publication/example/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://davehimanshu.github.io/publication/example/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://davehimanshu.github.io/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://davehimanshu.github.io/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://davehimanshu.github.io/research_themes/fluid_mechanics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://davehimanshu.github.io/research_themes/fluid_mechanics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predictive stock market models</title>
+      <link>https://davehimanshu.github.io/research_projects/example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://davehimanshu.github.io/research_projects/example/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Predictive stock market models</title>
+      <link>https://davehimanshu.github.io/research_themes/example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://davehimanshu.github.io/research_themes/example/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
