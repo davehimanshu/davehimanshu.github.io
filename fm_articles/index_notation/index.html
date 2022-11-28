@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: November 27, 2022 --><html lang="en-us" >
+<!-- Last Published: November 28, 2022 --><html lang="en-us" >
 
 
 <head>
@@ -1119,8 +1119,9 @@ Lets take another case of a the scaler product of $\overrightarrow{a}\cdot\hat{r
 </li>
 </ol>
 <ul>
-<li><strong>The cross product in index notation</strong>
-Let&rsquo;s consider the same coordinate system shown in the figure above. Using conventional right-hand rule for cross products, we have
+<li><strong>The cross product in index notation</strong></li>
+</ul>
+<p>Let&rsquo;s consider the same coordinate system shown in the figure above. Using conventional right-hand rule for cross products, we have
 $$
 \hat{e}_1\times\hat{e}_1 = \hat{e}_2\times\hat{e}_2 = \hat{e}_3\times\hat{e}_3 = 0
 $$<br>
@@ -1133,12 +1134,87 @@ $$
 \hat{e}_3\times\hat{e}_2 &amp;=&amp; -\hat{e}_1 \\
 \hat{e}_1\times\hat{e}_3 &amp;=&amp; -\hat{e}_2 \\
 \end{eqnarray}
-$$</li>
-</ul>
+$$</p>
 <p>To write this using the index notation approach, we have to introduce a new symbol $\epsilon_{ijk}$, commonly known as the Levi-Cevita  tensor. This symbol has the following properties:</p>
 <ol>
-<li>Hello world</li>
+<li>$\epsilon_{ijk} = 1$ if (ijk) is an even cyclic permutation of (123), <em>i.e.</em> $\epsilon_{123}=\epsilon_{231}=\epsilon_{312}=1$.</li>
+<li>$\epsilon_{ijk} = -1$ if (ijk) is a odd cyclic permutation of (123), <em>i.e.</em> $\epsilon_{213}=\epsilon_{321}=\epsilon_{132}=-1$.</li>
+<li>$\epsilon_{ijk} = 0$ if two or more subscripts are the same, <em>i.e.</em> $\epsilon_{111}=\epsilon_{112}=\epsilon_{313}=0$ <em>etc</em>.</li>
 </ol>
+<p>Hence we can not rewrite our cross product expressions as one generalized expression such that:
+
+
+
+$$
+\hat{e}_i\times\hat{e}_j = \epsilon_{ijk}\hat{e}_k
+$$
+</p>
+<p>Now lets apply the above knowledge to the cross product of two vectors:
+
+
+
+$$
+\overrightarrow{a}\times\overrightarrow{b} = (a_i\hat{e}_i)\times(b_j\hat{e}_j) = a_ib_j\hat{e}_i\times\hat{e}_j=a_ib_j\epsilon_{ijk}\hat{e}_k
+$$
+
+Thus, we can write the cross product between two vectors as,
+
+
+
+$$
+\overrightarrow{a}\times\overrightarrow{b} = \epsilon_{ijk}a_ib_j\hat{e}_k
+$$
+</p>
+<p>Finally, lets introduce one more property of the Levi-Cevita tensor. This property is the product of two tensors such that,
+
+
+
+$$
+\epsilon_{ijk}\epsilon_{klm} = \delta_{il}\delta_{jm} - \delta_{im}\delta_{jl}
+$$
+</p>
+<ul>
+<li><strong>Vector identity examples</strong></li>
+</ul>
+<p>Let&rsquo;s now take a look at two vector identity examples in order to highlight the use of index notation.</p>
+<ol>
+<li>$\overrightarrow{a}\times\left(\overrightarrow{b}\times\overrightarrow{c}\right) = \left(\overrightarrow{a}\cdot\overrightarrow{c}\right)\overrightarrow{b}-\left(\overrightarrow{a}\cdot\overrightarrow{b}\right)\overrightarrow{c}$</li>
+</ol>
+
+
+
+$$
+\begin{eqnarray}
+\overrightarrow{a}\times\left(\overrightarrow{b}\times\overrightarrow{c}\right) &=& (a_i\hat{e}_i)\times(\epsilon_{jkl}b_jc_k\hat{e}_l)\\\\
+&=& \epsilon_{jkl}a_ib_jc_k(\hat{e}_i\times\hat{e}_l)\\\\
+&=& \epsilon_{jkl}a_ib_jc_k\epsilon_{ilh}\hat{e}_h\\\\
+&=& \epsilon_{jkl}\epsilon_{ilh}a_ib_jc_k\hat{e}_h\\\\
+&=& (\delta_{jh}\delta_{ki} - \delta_{ji}\delta_{kh})a_ib_jc_k\hat{e}_h\\\\
+&=& \delta_{jh}\delta_{ki}a_ib_jc_k\hat{e}_h - \delta_{ji}\delta_{kh}a_ib_jc_k\hat{e}_h\\\\
+&=& (a_ic_i)(b_j\hat{e}_j) - (a_ib_i)(c_k\hat{e}_k)\\\\
+&=& \left(\overrightarrow{a}\cdot\overrightarrow{c}\right)\overrightarrow{b} - \left(\overrightarrow{a}\cdot\overrightarrow{b}\right)\overrightarrow{c}
+\end{eqnarray}
+$$
+
+<ol start="2">
+<li>$\overrightarrow{a}\cdot\left(\overrightarrow{b}\times\overrightarrow{c}\right) = \overrightarrow{c}\cdot\left(\overrightarrow{a}\times\overrightarrow{b}\right) = \overrightarrow{b}\cdot\left(\overrightarrow{c}\times\overrightarrow{a}\right)$</li>
+</ol>
+
+
+
+$$
+\begin{eqnarray}
+\overrightarrow{a}\cdot\left(\overrightarrow{b}\times\overrightarrow{c}\right) &=& (a_i\hat{e}_i)\cdot(\epsilon_{jklm}b_jc_k\hat{e_m})\\\\
+&=& \epsilon_{jkm}a_ib_jc_k(\hat{e}_i\cdot\hat{e}_m)\\\\
+&=& \epsilon_{jkm}a_ib_jc_k\delta_{im}\\\\
+&=& \epsilon_{jki}a_ib_jc_k\\\\
+&=& \epsilon_{ijk}a_ib_jc_k\\\\
+&=& \overrightarrow{a}\cdot\left(\overrightarrow{b}\times\overrightarrow{c}\right)\\\\
+&=& \overrightarrow{c}\cdot\left(\overrightarrow{a}\times\overrightarrow{b}\right)\\\\
+&=& \overrightarrow{b}\cdot\left(\overrightarrow{c}\times\overrightarrow{a}\right)
+\end{eqnarray}
+$$
+
 
     </div>
 
