@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drag reduction | Himanshu Dave</title>
+    <link>https://davehimanshu.github.io/tag/drag-reduction/</link>
+      <atom:link href="https://davehimanshu.github.io/tag/drag-reduction/index.xml" rel="self" type="application/rss+xml" />
+    <description>Drag reduction</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 14 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://davehimanshu.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Drag reduction</title>
+      <link>https://davehimanshu.github.io/tag/drag-reduction/</link>
+    </image>
+    
+    <item>
+      <title>Modulation of turbulent structures using inertial particles to achieve drag reduction</title>
+      <link>https://davehimanshu.github.io/research_projects/dr/</link>
+      <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>https://davehimanshu.github.io/research_projects/dr/</guid>
+      <description>&lt;p&gt;A vast majority of woth worlds energy resources (Crude oil and natural gas) are transported through pipelines spanning thousands of miles. Pumping fluids through these pipelines for thousands of miles proves to be a significant challenge requiring pumping stations every 50 miles on average. Advances in efficient fluid transport can bring a transformative impact in the Petroleum and natural gas industry.&lt;/p&gt;
+&lt;p&gt;The largest inefficiency within pipelines arises from pressure-losses stemming from the shear stress produced at the walls acting on the fluid. In this project we show that inertial particles introduced within a turbulent channel flow even at semi-dilute volume fractions can significant alter the skin-friction drag at the walls by modifying the coherent flow structures.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-a-paticle-laden-turbulent-channel-flow-at-mathrmre_tau--180-showing-contours-of-particle-volume-fraction-majority-of-the-particles-reside-in-low-speed-regions-of-the-flow&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;A paticle-laden turbulent channel flow at $\mathrm{Re}_\tau = 180$ showing contours of particle volume fraction. Majority of the particles reside in low-speed regions of the flow.&#34; srcset=&#34;
+               /media/dr_1_hu4c7e212139982341074274fc317a6d5d_214670_f1eb078c1bc431e5c3f6dba2b0e4a7f2.webp 400w,
+               /media/dr_1_hu4c7e212139982341074274fc317a6d5d_214670_2d1a0347515fae14c3baf5252a13e862.webp 760w,
+               /media/dr_1_hu4c7e212139982341074274fc317a6d5d_214670_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://davehimanshu.github.io/media/dr_1_hu4c7e212139982341074274fc317a6d5d_214670_f1eb078c1bc431e5c3f6dba2b0e4a7f2.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;286&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      A paticle-laden turbulent channel flow at $\mathrm{Re}_\tau = 180$ showing contours of particle volume fraction. Majority of the particles reside in low-speed regions of the flow.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;A two-way modulation is observed that is based on particle inertia. Low inertial particles at ($\mathrm{St}^+ = 6$) actually produce a drag increase and reduce the mass flow rate whereas high inertial particles ($\mathrm{St}^+ = 30$) produce drag reduction and increase the mass flow rate. The magnitude of change observed is amplified as the mass loading is increased.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-visually-looking-at-the-flow-shows-an-increase-in-mass-flow-rate-compared-to-the-particle-free-channel-flow-with-laden-with-higher-inertial-particles-lower-inertial-particles-tend-the-reduce-the-mass-flow-rate-compared-to-the-particle-free-channel-flow&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Visually looking at the flow shows an increase in mass flow rate compared to the particle-free channel flow with laden with higher inertial particles. Lower inertial particles tend the reduce the mass flow rate compared to the particle-free channel flow&#34; srcset=&#34;
+               /media/dr_2_hu2ea053faa90ad995409e11e2550c5d1a_88417_212a9d6f4666d98ab62a8209a96e1152.webp 400w,
+               /media/dr_2_hu2ea053faa90ad995409e11e2550c5d1a_88417_e26fcb4ad1ef2bbc4a85c711360c2931.webp 760w,
+               /media/dr_2_hu2ea053faa90ad995409e11e2550c5d1a_88417_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://davehimanshu.github.io/media/dr_2_hu2ea053faa90ad995409e11e2550c5d1a_88417_212a9d6f4666d98ab62a8209a96e1152.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;505&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Visually looking at the flow shows an increase in mass flow rate compared to the particle-free channel flow with laden with higher inertial particles. Lower inertial particles tend the reduce the mass flow rate compared to the particle-free channel flow
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-average-streamwise-velocity-as-a-function-of-the-wall-normal-distance-for-a-mathrmst--6-and-b-mathrmst--30-at-various-mass-loadings-the-solid-black-line-represents-the-particle-free-channel-darker-symbols-correspond-to-larger-mass-loadings-which-vary-from-02-10&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Average streamwise velocity as a function of the wall normal distance for (a) $\mathrm{St}^&amp;#43; = 6$ and (b) $\mathrm{St}^&amp;#43; = 30$ at various mass loadings. The solid black line represents the particle-free channel. Darker symbols correspond to larger mass loadings which vary from 0.2-1.0.&#34; srcset=&#34;
+               /media/dr_3_hub8a63c9c37b655f296429afd54e969a3_80616_9df69aedc9d211b6456c50595eaaef2f.webp 400w,
+               /media/dr_3_hub8a63c9c37b655f296429afd54e969a3_80616_51fe395385e41d49a99788de83b786d7.webp 760w,
+               /media/dr_3_hub8a63c9c37b655f296429afd54e969a3_80616_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://davehimanshu.github.io/media/dr_3_hub8a63c9c37b655f296429afd54e969a3_80616_9df69aedc9d211b6456c50595eaaef2f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;286&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Average streamwise velocity as a function of the wall normal distance for (a) $\mathrm{St}^+ = 6$ and (b) $\mathrm{St}^+ = 30$ at various mass loadings. The solid black line represents the particle-free channel. Darker symbols correspond to larger mass loadings which vary from 0.2-1.0.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;Particles modulate the flow structures due to two underlying mechanisms:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Preferential concentration&lt;/strong&gt;: The migration of inertial particles from vortical regions to straining regions of the flow.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Turbophoresis&lt;/strong&gt;: The migration of inertial particles to lower turbulence regions near the walls.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;In the present research we witness a major distinction between how lower inertial particles segregate themselves within the flow compared to higher inertial particles and how that affects if drag is reduced or augmented. This strongly affects how the low-speed regions of flow are observed. Higher inertial particles which produce a reduction in drag (i.e. increase in mass flow rate) tend to form long ropes near the wall with a relative volume fraction of $\phi/\phi_0 = 3$ or higher. These long ropes reside in the low-speed regions of the flow and help increase the spacing between them in the spanwise direction. This tends to increase the mass flow rate by reducing the number of bursting events from coherent structures. The ropes tend to make the coherent structures more stable around them, overall reducing the amount of wall-shear stress produced.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-formation-of-stable-particles-ropes-help-keep-the-coherent-structures-quasi-streamwise-vortices-around-them-stable-for-long-periods-of-time-the-pink-contour-shows-the-particle-ropes-existing-between-two-counter-rotating-vortices&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;The formation of stable particles ropes help keep the coherent structures (quasi-streamwise vortices) around them stable for long periods of time. The pink contour shows the particle ropes existing between two counter-rotating vortices.&#34; srcset=&#34;
+               /media/dr_4_hu6aa276f30b7908604a771c3069bdba35_736365_60ce4faee1794357e2d326eaa92a6143.webp 400w,
+               /media/dr_4_hu6aa276f30b7908604a771c3069bdba35_736365_abfb358ed20e2b41b128d840bd7eb6f5.webp 760w,
+               /media/dr_4_hu6aa276f30b7908604a771c3069bdba35_736365_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://davehimanshu.github.io/media/dr_4_hu6aa276f30b7908604a771c3069bdba35_736365_60ce4faee1794357e2d326eaa92a6143.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;455&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      The formation of stable particles ropes help keep the coherent structures (quasi-streamwise vortices) around them stable for long periods of time. The pink contour shows the particle ropes existing between two counter-rotating vortices.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;A remarkable obersvation is how these ropes tend to remain stable for long periods of time. In comparison lower inertial particles are more spread apart into smaller clusters and dont show the same characteristics as higher inertial particles, hence producing an increase in drag.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Top-down view of pseudocolor of Particle volume fraction near the wall for $\mathrm{St}^+ = 30$. We observe long streaks of particles (i.e. &amp;ldquo;ropes&amp;rdquo;) near the wall which remain stable for long periods of time.
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video controls  &gt;
+  &lt;source src=&#34;https://davehimanshu.github.io/media/Vfp.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Top-down view of pseudocolor of fluid velocity overlayed by particle volume fraction near the wall for particles at $\mathrm{St}^+ = 30$. We observe the long ropes coinciding with the low-speed regions of the flow.
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+&lt;video controls  &gt;
+  &lt;source src=&#34;https://davehimanshu.github.io/media/lss.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
