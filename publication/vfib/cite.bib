@@ -1,17 +1,13 @@
-@misc{https://doi.org/10.48550/arxiv.2210.00148,
-  doi = {10.48550/ARXIV.2210.00148},
-  
-  url = {https://arxiv.org/abs/2210.00148},
-  
-  author = {Dave, Himanshu and Herrmann, Marcus and Kasbaoui, M. Houssem},
-  
-  keywords = {Fluid Dynamics (physics.flu-dyn), FOS: Physical sciences, FOS: Physical sciences},
-  
-  title = {The volume-filtering immersed boundary method},
-  
-  publisher = {arXiv},
-  
-  year = {2022},
-  
-  copyright = {Creative Commons Attribution 4.0 International}
+@article{DAVE2023112136,
+title = {The volume-filtering immersed boundary method},
+journal = {Journal of Computational Physics},
+volume = {487},
+pages = {112136},
+year = {2023},
+issn = {0021-9991},
+doi = {https://doi.org/10.1016/j.jcp.2023.112136},
+url = {https://www.sciencedirect.com/science/article/pii/S0021999123002310},
+author = {Himanshu Dave and Marcus Herrmann and M. Houssem Kasbaoui},
+keywords = {Immersed boundary method, Volume-filtering, Fully-resolved simulations, CFD},
+abstract = {We present a novel framework to deal with static and moving immersed boundaries (IB) based on volume-filtering. In this strategy, called Volume-Filtering Immersed Boundary (VFIB) method, transport equations are derived by filtering the Navier-Stokes equations and accounting for stresses at the solid-fluid interface. The result is that boundary conditions that normally apply on the solid-fluid interface are transformed into bodyforces that apply on the right-hand side of the filtered transport equations. In this method, the filter width acts as a parameter that controls the level of resolution. The IB is considered well-resolved if the filter width is much smaller than the characteristic corrugation scale of the interface. There are several innovations in this IB method. First, it sheds light on the role of the internal flow which arises when the transport equations are solved inside the IB. We show that, it is essential to separate stresses due to the external and internal fluids in order to get accurate forces, and provide a method to do so. Second, we show that the volumes associated with Lagrangian forcing points on the boundary depend on the local topology of the surface. We provide a straightforward way to compute these volumes using a triangle tessellation of the interface and the surface density function. Third, we provide an efficient procedure to compute the solid volume fraction, thus, enabling tagging interior/exterior cells. This volume fraction is also involved in the procedure to separate stresses due to the external fluid from the total stresses. Fourth, we show a path forward to extend the VFIB method to Large Eddy Simulations involving IBs. Lastly, we apply the VFIB in several numerical tests involving two- and three-dimensional static and moving IBs. We show greatly improved results compared to prior IB methods. Further, we test several filter kernels and show that, for well-resolved IBs, the choice of the kernel plays little role.}
 }

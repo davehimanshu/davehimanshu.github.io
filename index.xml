@@ -5,12 +5,28 @@
     <link>https://davehimanshu.github.io/</link>
       <atom:link href="https://davehimanshu.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Himanshu Dave</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 14 Jan 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 21 Aug 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://davehimanshu.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Himanshu Dave</title>
       <link>https://davehimanshu.github.io/</link>
     </image>
+    
+    <item>
+      <title>Mechanisms of drag reduction by semi-dilute inertial particles in a turulent channel flow</title>
+      <link>https://davehimanshu.github.io/publication/channel/</link>
+      <pubDate>Mon, 21 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://davehimanshu.github.io/publication/channel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The volume-filtering immersed boundary method</title>
+      <link>https://davehimanshu.github.io/publication/vfib/</link>
+      <pubDate>Tue, 15 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://davehimanshu.github.io/publication/vfib/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Modulation of turbulent structures using inertial particles to achieve drag reduction</title>
@@ -205,6 +221,10 @@
 &lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Related Publications&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Dave, H. &amp;amp; Kasbaoui, M. H., Mechanisms of drag reduction by semi-dilute inertial particles in turbulent channel flow, Physical Review Fluids, 8, 084305 (08/21/2023).&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
@@ -306,25 +326,9 @@
 
 &lt;p&gt;&lt;strong&gt;Related Publications&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Dave, H.,Herrmann, M. &amp;amp; Kasbaoui, M.H. The volume-filtering immersed boundary method. arXiv: 2210.00148 (2022).&lt;/li&gt;
+&lt;li&gt;Dave, H., Herrmann, M. &amp;amp; Kasbaoui, M. H., The volume-filtering immersed boundary method, Journal of Computational Physics, 487, 112136 (08/15/2023).&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Mechanisms of drag reduction by semi-dilute inertial particles in a turulent channel flow</title>
-      <link>https://davehimanshu.github.io/publication/channel/</link>
-      <pubDate>Fri, 11 Nov 2022 00:00:00 +0000</pubDate>
-      <guid>https://davehimanshu.github.io/publication/channel/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The volume-filtering immersed boundary method</title>
-      <link>https://davehimanshu.github.io/publication/vfib/</link>
-      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://davehimanshu.github.io/publication/vfib/</guid>
-      <description></description>
     </item>
     
     <item>

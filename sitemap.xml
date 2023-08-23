@@ -2,11 +2,43 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://davehimanshu.github.io/tag/drag-reduction/</loc>
-    <lastmod>2023-01-14T00:00:00+00:00</lastmod>
+    <loc>https://davehimanshu.github.io/publication-type/2/</loc>
+    <lastmod>2023-08-21T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://davehimanshu.github.io/</loc>
+    <lastmod>2023-08-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://davehimanshu.github.io/author/himanshu-dave/</loc>
+    <lastmod>2023-08-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://davehimanshu.github.io/author/m.-houssem-kasbaoui/</loc>
+    <lastmod>2023-08-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://davehimanshu.github.io/publication/channel/</loc>
+    <lastmod>2023-08-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://davehimanshu.github.io/publication_types/</loc>
+    <lastmod>2023-08-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://davehimanshu.github.io/publication/</loc>
+    <lastmod>2023-08-21T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://davehimanshu.github.io/author/marcus-herrmann/</loc>
+    <lastmod>2023-08-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://davehimanshu.github.io/publication/vfib/</loc>
+    <lastmod>2023-08-15T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url><url>
+    <loc>https://davehimanshu.github.io/tag/drag-reduction/</loc>
     <lastmod>2023-01-14T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
@@ -44,38 +76,6 @@
   </url><url>
     <loc>https://davehimanshu.github.io/tag/volume-filtering/</loc>
     <lastmod>2022-12-30T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://davehimanshu.github.io/publication-type/3/</loc>
-    <lastmod>2022-11-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://davehimanshu.github.io/author/himanshu-dave/</loc>
-    <lastmod>2022-11-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://davehimanshu.github.io/author/m.-houssem-kasbaoui/</loc>
-    <lastmod>2022-11-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://davehimanshu.github.io/publication/channel/</loc>
-    <lastmod>2022-11-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://davehimanshu.github.io/publication_types/</loc>
-    <lastmod>2022-11-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://davehimanshu.github.io/publication/</loc>
-    <lastmod>2022-11-11T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://davehimanshu.github.io/author/marcus-herrmann/</loc>
-    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-  </url><url>
-    <loc>https://davehimanshu.github.io/publication/vfib/</loc>
-    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
     <loc>https://davehimanshu.github.io/admin/</loc>
