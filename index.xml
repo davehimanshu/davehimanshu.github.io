@@ -33,7 +33,7 @@
       <link>https://davehimanshu.github.io/research_projects/dr/</link>
       <pubDate>Sat, 14 Jan 2023 00:00:00 +0000</pubDate>
       <guid>https://davehimanshu.github.io/research_projects/dr/</guid>
-      <description>&lt;p&gt;A vast majority of woth worlds energy resources (Crude oil and natural gas) are transported through pipelines spanning thousands of miles. Pumping fluids through these pipelines for thousands of miles proves to be a significant challenge requiring pumping stations every 50 miles on average. Advances in efficient fluid transport can bring a transformative impact in the Petroleum and natural gas industry.&lt;/p&gt;
+      <description>&lt;p&gt;A vast majority of the worlds energy resources (Crude oil and natural gas) are transported through pipelines spanning thousands of miles. Pumping fluids through these pipelines for thousands of miles proves to be a significant challenge requiring pumping stations every 50 miles on average. Advances in efficient fluid transport can bring a transformative impact in the Petroleum and natural gas industry.&lt;/p&gt;
 &lt;p&gt;The largest inefficiency within pipelines arises from pressure-losses stemming from the shear stress produced at the walls acting on the fluid. In this project we show that inertial particles introduced within a turbulent channel flow even at semi-dilute volume fractions can significant alter the skin-friction drag at the walls by modifying the coherent flow structures.&lt;/p&gt;
 
 
@@ -269,7 +269,7 @@
 &lt;p&gt;This approach has recently gained significant traction with the increase in computational power recently due to its many benefits over conventional multiphase simulation approaches such as the body-fitted method. One of its most attractive features is the ability to allow for moving interfaces without the need for mesh regeneration, providing an significant increase in computational efficiency by saving time per step.&lt;/p&gt;
 &lt;p&gt;While recent advances show significant improvement, certain questions still remain unanswered which stem from the ad-hocness of the methods:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;What is the role of the internal flow within the immerses solid and how does it affect the quantities calculated at the interface?&lt;/li&gt;
+&lt;li&gt;What is the role of the internal flow within the immersed solid and how does it affect the quantities calculated at the interface?&lt;/li&gt;
 &lt;li&gt;What is the correct way to compute the Lagrangian marker volumes which arise during the computation of the forcing at the markers?&lt;/li&gt;
 &lt;li&gt;What is the accurate way to compute the hydrodynamic force at the interface?&lt;/li&gt;
 &lt;/ol&gt;
@@ -327,6 +327,7 @@
 &lt;p&gt;&lt;strong&gt;Related Publications&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Dave, H., Herrmann, M. &amp;amp; Kasbaoui, M. H., The volume-filtering immersed boundary method, Journal of Computational Physics, 487, 112136 (08/15/2023).&lt;/li&gt;
+&lt;li&gt;Dave, H., Herrmann, M., Brady, P., &amp;amp; Kasbaoui, M.H., Characterization of the forcing and sub-filter scale terms in the volume-filtering immersed boundary method, Journal of Computational Physics, 525, 113765 (03/15/2025)&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
