@@ -5,12 +5,20 @@
     <link>https://davehimanshu.github.io/author/himanshu-dave/</link>
       <atom:link href="https://davehimanshu.github.io/author/himanshu-dave/index.xml" rel="self" type="application/rss+xml" />
     <description>Himanshu Dave</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 21 Aug 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 15 Mar 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://davehimanshu.github.io/author/himanshu-dave/avatar_huef10ac4814c5c1882f5249045b2b5ea2_305458_270x270_fill_q75_lanczos_center.jpg</url>
       <title>Himanshu Dave</title>
       <link>https://davehimanshu.github.io/author/himanshu-dave/</link>
     </image>
+    
+    <item>
+      <title>Characterization of the forcing and sub-filter scale terms in the volume-filtering immersed boundary method</title>
+      <link>https://davehimanshu.github.io/publication/vfib_2/</link>
+      <pubDate>Sat, 15 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://davehimanshu.github.io/publication/vfib_2/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Mechanisms of drag reduction by semi-dilute inertial particles in a turulent channel flow</title>
