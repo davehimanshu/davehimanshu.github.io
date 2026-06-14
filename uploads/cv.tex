@@ -1,0 +1,249 @@
+%-------------------------
+% Resume in Latex
+% Author : Himanshu Dave
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10.8pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{bm}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.375in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{0.5in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large
+}{}{0em}{}[{\color{black}\vspace{1pt}\hrule height 1.2pt\vspace{1.5pt}\hrule height 0.5pt}\vspace{-4pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+  \item\small{
+    #1 \vspace{-2pt}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\LARGE Dr. Himanshu Dave}}\\
+  Website: \href{https://davehimanshu.github.io}{https://davehimanshu.github.io} & Email : \href{mailto:dave@mps.mpg.de}{dave@mps.mpg.de}\\
+  Mobile : +49-15164620575\\
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Arizona State University}{Tempe, Arizona, USA}
+      {Ph.D. Mechanical Engineering - (GPA - 3.64/4.00)}{May 2024}
+      
+      Advisors: Dr. Mohamed Houssem Kasbaoui (Chair), Dr. Marcus Herrmann (Co-Chair)\\
+      Thesis title - Towards high fidelity multiphase simulations based on volume-filtering: from point-particle to interface resolved descriptions.
+      
+    \resumeSubheading
+      {Arizona State University}{Tempe, Arizona, USA}
+      {M.Sc. Mechanical Engineering - (GPA - 3.64/4.00)}{May 2023}
+    \resumeSubheading
+      {Arizona State University}{Tempe, Arizona, USA}
+      {B.Sc. Mechanical Engineering (Honors) - (GPA - 3.25/4.00)}{May 2019}
+      
+      Honors thesis title - Design and analyze a liquid-liquid co-axial swirl injector for a small-scale rocket engine using CFD for minimum pressure drop and maximum spray angle.
+  \resumeSubHeadingListEnd
+%  \textit{(GPA scale: 4.0 = highest, 1.0 = lowest)}
+
+\section{Research Interests}
+\textbullet\ High-Fidelity Computational Fluid Dynamics (CFD) \textbullet\ Turbulence modeling \textbullet\ Compressible flows \textbullet\ Multiphase flows\\ \textbullet\ Heat transfer within fluid flows \\
+
+%------------Fellowships and awards-------------
+\section{Fellowships and awards}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {National Science Foundation INTERN program}{Los Alamos, NM, USA}
+      {Los Alamos National Laboratory}{Jul 2022 - Dec 2022}
+  \resumeSubHeadingListEnd
+
+%-----------Computing grants-----------------
+\section{Computing grants awarded}
+\begin{description}
+\item {1. \textbf{XSEDE}: ``Bridging the gap in multiphase flow simulations", PI: \textbf{Kasbaoui, M. H.}, Co-PI: Dave, H., 2M CPU hours, Period: 01/01/2021 to 12/31/2021.} 
+\end{description}
+
+%-----------Publications-----------------
+\section{Peer-reviewed Journal papers}
+\begin{description}
+\item {3. \textbf{Dave, H.}, Brady, P., Herrmann, M. \& Kasbaoui, M. H., Characterization of the forcing and sub-filter scale terms in the volume-filtering immersed boundary method, Journal of Computational Physics, 525, 113765 (03/15/2025). \textbf{(** 1)}}
+\item {2. \textbf{Dave, H.} \& Kasbaoui, M. H., Mechanisms of drag reduction by semi-dilute inertial particles in turbulent channel flow, Physical Review Fluids, 8, 084305 (08/21/2023). \textbf{(** 22)}}
+\item {1. \textbf{Dave, H.}, Herrmann, M. \& Kasbaoui, M. H., The volume-filtering immersed boundary method, Journal of Computational Physics, 487, 112136 (08/15/2023). \textbf{(** 11)}}
+\end{description}
+\textbf{** Citation count from Google Scholar}
+
+%------------Conference papers-------------
+\section{Peer-reviewed Conference papers}
+\begin{description}
+\item {1. \textbf{Dave, H.} \& Kasbaoui, M. H. Modulation of coherent structures by inertial particles in a turbulent channel flow, AIAA Scitech 2020 Forum, 1328 (01/05/2020).} 
+\end{description}
+
+%-----------In Review papers--------------
+\section{Journal papers under review}
+\begin{description}
+\item {1. \textbf{Dave, H.}, Patel, K., Zhu, X., Dynamics of melting interfaces under rotation, submitted to Journal of Fluid Mechanics.}
+\end{description}
+
+\section{Technical Skills}
+\textbf{Computational Fluid Dynamics}: Direct Numerical Simulation (DNS), Large-Eddy Simulation (LES), High-order unstructured solvers, Immersed Boundary Methods (IBM), Finite-volume methods, Flow-geometry coupling\\
+\textbf{Numerical Methods \& Physics}: High-order discretizations, stability analysis for hyperbolic PDEs, cut-cell methods, low-Reynolds number \& compressible aerodynamics, turbulence modeling\\
+\textbf{High-Performance Computing}: MPI parallelization, Linux clusters, scale-up optimization, exposure to GPU-accelerated CFD workflows\\
+\textbf{Programming \& Automation}: Python (advanced data analysis, scripting, and pipeline automation), C++, FORTRAN, MATLAB, Mathematica\\
+\textbf{Software \& Solvers}: CharLES, OpenFOAM, ANSYS Fluent, STAR-CCM+, Solidworks, Gmsh, VisIt, Paraview
+
+%-----------EXPERIENCE-----------------
+\section{Research Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+    {Max Planck Institute (Computational Fluid Dynamics Group)}{G\"ottingen, Germany}
+    {Postdoctoral Researcher}{September 2024 - Present}
+        \begin{description}
+        \item[1.] Conduct high-fidelity CFD simulations of turbulent flows with evolving complex interfaces using phase-field methods, characterizing boundary layer physics and heat transfer performance.
+        \item[2.] Develop end-to-end Python simulation setup, automation, and post-processing pipelines to parse and extract key metrics from large-scale 3D datasets.
+        \item[3.] Build memory-efficient visualization and data analysis tools for multi-terabyte HPC datasets, enabling rapid validation and design iteration of complex flow structures.
+        \item[4.] Coordinate code deployment pipelines across high-performance environments to preserve software continuity.
+        \end{description} 
+    \resumeSubheading    
+    {Arizona State University}{Tempe, AZ, USA}
+    {Graduate Teaching Assistant, School of Engineering of Matter}{January 2024 - May 2024}
+        \begin{description}
+        \item[1.] Instructed undergraduate students in thermal-fluid fundamentals, thermodynamics, and fluid dynamics principles to support experimental validation.        
+        \item[2.] Facilitated hands-on laboratory work for 100+ students on thermal-fluid cycles and aerodynamic characterization of systems. 
+        \end{description}  
+    \resumeSubheading    
+    {Los Alamos National Laboratory}{Los Alamos, NM, USA}
+    {Graduate Research Associate}{May 2023 - September 2023}
+        \begin{description}
+        \item[1.] Evaluated and optimized numerical stability of higher-order finite-differences for cut-cell methods using dispersive wave theory.
+        \item[2.] Formulated novel high-order stable cut-cell stencils to solve hyperbolic conservation laws with complex geometric boundaries using automated scripts in Python and Mathematica.
+        \item[3.] Implemented and scaled up high-order (up to 8th order) stencil algorithms in C++ within massive Linux HPC environments, reducing computational footprint while preserving accuracy.
+        \end{description}
+     \resumeSubheading   
+    {Arizona State University}{Tempe, AZ, USA}
+    {Graduate Research Associate (Advisor: Prof. M. H. Kasbaoui)}{Aug 2019 - May 2023}
+        \begin{description}
+        \item[1.] Developed a high-fidelity gas-solid multiphase solver in FORTRAN tailored for static and moving complex geometries using custom volume-filtering techniques.
+        \item[2.] Benchmarked the custom code against canonical aeromechanics datasets, achieving 99.3\% validation accuracy compared to experimental measurements.
+        \item[3.] Extended the Volume-Filtered Immersed Boundary (VFIB) method to handle complex geometric boundaries that do not align with uniform structured meshes for acoustic and thermal analysis.
+        \item[4.] Discovered a 20\% skin-friction drag reduction mechanism in wall-bounded turbulence using advanced Eulerian-Lagrangian methods.
+        \item[5.] Extracted structural flow dynamics from large datasets using spatial/temporal averaging to isolate performance-limiting vortical features.
+        \item[6.] Managed code repositories using Git and utilized large-scale parallel scaling (OpenMPI) on Linux cluster resources to optimize numerical code throughput.
+        \item[7.] Mentored undergraduate students on high-performance computing (HPC) environments and data analysis scripting.
+        \end{description}
+    \resumeSubheading
+    {Los Alamos National Laboratory}{Los Alamos, NM, USA}
+    {NSF Graduate Intern}{Jul 2022 - Dec 2022}
+        \begin{description}
+        \item[1.] Applied the specialized Volume-Filtered Immersed Boundary (VF-IB) framework to hyperbolic and parabolic PDEs to model thermal and acoustic environments near complex topological surfaces.
+        \item[2.] Compared performance metrics against existing cut-cell solvers, proving identical resolution of flow physics with significantly lower grid-generation and computational costs.
+        \item[3.] Quantified sub-grid scale (SGS) structural terms within filtering windows to assess grid-independence and model accuracy. 
+        \end{description}
+    \resumeSubheading
+		{Arizona State University}{Tempe, AZ, USA}
+		{Honors Thesis Project}{Aug 2018 - May 2019}
+        \begin{description}
+        \item[1.] Performed high-fidelity Large-Eddy Simulations (LES) of a liquid-liquid coaxial swirl injector under the high-order unstructured CharLES solver platform.
+        \item[2.] Manufactured physical prototype hardware and validated aerodynamic/spray morphology metrics against LES data using experimental Particle Image Velocimetry (PIV) techniques.
+        \item[3.] Managed thermal-structural optimization passes across the entire engine assembly to identify and eliminate high-flux thermal runoff scenarios.
+        \item[4.] Co-founded a university rocketry organization, leading a 10-student propulsion engineering team through design, simulation, and hardware validation phases.
+        \end{description}
+    \resumeSubheading
+		{AzLoop (SpaceX Hyperloop Competition Team)}{Tempe, AZ, USA}
+		{Team Lead - Braking, Stability \& Aerodynamics}{Mar 2017 - Jul 2018}
+        \begin{description}
+        \item[1.] Conducted high-speed aerodynamic compressible flow analysis using CharLES and completed conjugate heat transfer runs in ANSYS Fluent to mitigate thermal failures.
+        \item[2.] Executed multi-parameter vehicle stability and structural vibration studies using MATLAB to predict dynamic system limits.
+        \item[3.] Managed precise CNC and lathe-based components fabrication processes to align exact parameters with computer modeling limits.
+        \end{description}
+\resumeSubHeadingListEnd
+
+%-----------Conference presentations and proceedings-----------------
+\section{Conference Presentations \& Proceedings}
+\begin{description}
+\item {10. \textbf{Dave, H.}, Anas, M., Zhu, X., Melting within rotating Rayleigh-B\'enard convection. Presented at: 2nd European Fluid Dynamics Conference; August 2025.}
+\item {9. \textbf{Dave, H.}, Herrmann, M., Kasbaoui, M. H., Brady, P., A novel approach to solve PDE's involving boundary conditions on complex geometrical bounding surfaces using the Volume-Filtered Immersed Boundary (VF-IB) method. Presented at: 76th Annual Meeting of the APS Division of Fluid Dynamics; November 2023.}
+\item {8. Kasbaoui M. H., \textbf{Dave H.}, Herrmann, M., A novel mass and momentum conserving immersed boundary method based on volume filtering. Presented at: 75th Annual Meeting of the APS Division of Fluid Dynamics; November 2022.}
+\item {7. \textbf{Dave, H.}, Herrmann, M., Kasbaoui, M. H., A new conceptual approach for immersed boundaries based on volume-filtering. Presented at: 74th Annual Meeting of the APS Division of Fluid Dynamics; November 2021.}
+\item {6. \textbf{Dave, H.}, Kasbaoui, M. H., Skin-friction drag modulation and riblet-like clusters in a semi-dilute particle-laden turbulent channel flow at $Re_\tau = 180$. Presented at: 74th Annual Meeting of the APS Division of Fluid Dynamics; November 2021.}
+\item {5. \textbf{Dave, H.}, Kasbaoui, M. H., Modulation of Skin-friction Drag by Inertial Particles. In: 25th International Congress of Theoretical and Applied Mechanics. International Union of Theoretical and Applied Mechanics; 2021.}
+\item {4. \textbf{Dave, H.}, Kasbaoui, M. H., A Novel Approach to Immersed Boundaries Based on the Volume-Filtering Framework. Presented at the: ASME 2021 Fluids Engineering Division Summer Meeting; August 2021.}
+\item {3. \textbf{Dave, H.}, Kasbaoui, M. H., Turbulence modulation by inertial particles in Eulerian-Lagrangian simulations of a semi-dilute particle-laden channel flow. Presented at: 73rd Annual Meeting of the APS Division of Fluid Dynamics; November 2020.}
+\item {2. \textbf{Dave, H.}, Kasbaoui, M. H., Modulation of coherent structures by inertial particles in a turbulent channel flow. Presented at: 72nd Annual Meeting of the APS Division of Fluid Dynamics; November 2019.}
+\item {1. \textbf{Dave, H.} \& Kasbaoui, M. H., Modulation of coherent structures by inertial particles in a turbulent channel flow, AIAA Scitech 2020 Forum, 1328 (01/05/2020).}
+\end{description}
+
+%-------------Student mentoring--------------------
+\section{Mentoring}
+\begin{description}
+\item {1. \textbf{Joseph Crespo}: Fulton Undergraduate Research Initiative (FURI) student working on large domain particle-laden channel flows to evaluate size-scaling effects in semi-dilute regimes.} 
+\item {2. \textbf{Jack Madden}: Barrett Honors thesis student tracking how filtering windows and spatial discretization affect the calculated drag coefficient on spherical geometries using specialized IB approaches.}
+\end{description}
+
+%-------------References--------------------
+\section{References}
+\begin{description}
+\item {1. \textbf{Prof. M. Houssem Kasbaoui (PhD Advisor)}: houssem.kasbaoui@asu.edu}
+\item {2. \textbf{Prof. M. Herrmann (PhD Co-Advisor)}: marcus.herrmann@asu.edu}
+\item {3. \textbf{Prof. Xiaojue Zhu (Current Postdoc Advisor)}: zhux@mps.mpg.de}
+\end{description}
+
+\end{document}
